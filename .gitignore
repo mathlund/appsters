@@ -1,0 +1,22 @@
+# Terraform provider binaries og cache
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Lokale override filer
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash logs
+crash.log
+
+# Sensitive data
+.terraform.tfvars
+
+# VS Code og systemfiler
+.vscode/
+.DS_Store
+Thumbs.db
